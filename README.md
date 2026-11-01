@@ -1,4 +1,4 @@
-# agentfilings-com
+# AgentFilings
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,124 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-agentfilings-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://agentfilings.com/
+AgentFilings provides structured US SEC/EDGAR filing data for AI agents, offering filings, XBRL-derived earnings, and Form 4 insider transactions as clean JSON. The service offers unlimited calls to all endpoints and MCP tools with a single API key, no per‑call charges, and supports autonomous agents with payment via x402 in USDC on Base. Data is refreshed daily from SEC EDGAR, ensuring up-to‑date company metadata and insider transaction information.
+
+**Areas:** SEC · EDGAR · Finance · AI · Data · Filings
+
+## AgentFilings on APIs.io
+
+Everything profiled for AgentFilings is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agentfilings-com/](https://apis.io/providers/agentfilings-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [AgentFilings Earnings API](https://apis.io/apis/agentfilings-com/agentfilings-com-earnings-api/) — The Earnings API from AgentFilings — 1 operation(s) for earnings.
+- [AgentFilings Filings API](https://apis.io/apis/agentfilings-com/agentfilings-com-filings-api/) — The Filings API from AgentFilings — 1 operation(s) for filings.
+- [AgentFilings Health API](https://apis.io/apis/agentfilings-com/agentfilings-com-health-api/) — The Health API from AgentFilings — 1 operation(s) for health.
+- [AgentFilings Insiders API](https://apis.io/apis/agentfilings-com/agentfilings-com-insiders-api/) — The Insiders API from AgentFilings — 1 operation(s) for insiders.
+- [AgentFilings Probe API](https://apis.io/apis/agentfilings-com/agentfilings-com-probe-api/) — The Probe API from AgentFilings — 1 operation(s) for probe.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Agentfilings Com Agentic Access](https://apis.io/agentic-access/agentfilings-com/agentfilings-com-agentic-access/)
+
+#### JSON Schema (1)
+
+The data models the API reads and writes.
+
+- [Envelope](https://apis.io/schemas/agentfilings-com/agentfilings-com-envelope/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Agentfilings Com Context](https://apis.io/jsonld/agentfilings-com/agentfilings-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [AgentFilings API Rules](https://apis.io/rules/agentfilings-com/agentfilings-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Agentfilings Com Authentication](https://apis.io/security/agentfilings-com/agentfilings-com-authentication/)
+- [Agentfilings Com Domain Security](https://apis.io/security/agentfilings-com/agentfilings-com-domain-security/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Agentfilings Com Rate Limits](https://apis.io/rate-limits/agentfilings-com/agentfilings-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://agentfilings.com/)
+- [Documentation](https://api.agentfilings.com/)
+- [Getting started](https://api.agentfilings.com/probe)
+- [API reference](https://api.agentfilings.com/openapi.json)
+
+## API Evangelist rating
+
+**Kin Score 34.9** — thin · rubric 0.26.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 46.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 44.5 |
+| Access clarity | 0.0 |
+
+**Agent readiness 36.9** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 9.5** — Securities & Market Data
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agentfilings-com/](https://apis.io/providers/agentfilings-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AgentFilings: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/agentfilings-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
